@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>
+            Metrolink Times Checker
+        </title>
+
+        <link rel="stylesheet" href="indexStyle0.css">
+        <link rel="stylesheet" href="overlay.css">
+        <link rel="stylesheet" href="particles.css">
+    </head>
+
+    <body>
+
+        
+        <div class="overlay" id="overlayScreen">
+
+            <h1>When is the next tram?</h1>
+
+            <form autocomplete="off" class="searchForm overlayForm" onsubmit=""> 
+                <div class="autocomplete colourProfile">
+                    <input id="search1" name="search" type="text" placeholder="What stop are you starting at?"/>
+                    <button id="btnSearch1" type="button" onclick="">
+                        Search
+                  </button>
+                </div>
+
+        </div>
+
+        <div id="particle-container">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <main>
+            <div class="headerContainer">
+                <div class="centerThings">
+            <h2 class="trendingView">
+                When's the next tram?
+            </h2>
+                        <form autocomplete="off" class="searchForm" onsubmit=""> 
+                            <div class="autocomplete hiddenForm" id="hiddenFormControl">
+                                <input id="search" name="search" type="text" placeholder="What stop are you starting at?"/>
+                                <button id="btnSearch" type="button" class="searchButton" onclick="">
+                                    Search
+                              </button>
+                              <!--
+                              <button id="clear" onclick="">
+                                  Clear
+                              </button>
+                              -->
+                            </div>
+
+                        </form>
+                    </div>
+            </div> 
+
+                        <div class="flex-container">
+                            <div class="out" id="out" >
+                                
+                            </div>
+                        </div>
+                        <div class="random" id="random">
+                            <div id="bottle">
+
+                            </div>
+
+                            <div id="weatherContainer">
+            <div>
+                <h1 id="cityHeader"></h1>
+                <div id="weatherMain">
+                    <div id="temperature"></div>
+                    <div id="weatherDescriptionHeader"></div>
+                    <div><img id="documentIconImg"></div>
+                </div>
+                <div id="windSpeed" class="bottom-details"></div>
+                <div id="humidity" class="bottom-details"></div>
+            </div>
+                        </div>
+                        </div>
+                        
+                        
+        </main>
+
+        <script src="stops.js"></script>
+        <script src="newStopsArray.js"></script>
+        <script src="metro1.js"></script>
+        
+        <script src="metro.js"></script>
+        <script src="weathering.js"></script>
+        
+
+        <script rc="src.js"></script>
+    </body>
+
+</html>

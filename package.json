@@ -1,0 +1,23 @@
+{
+  "name": "metrolink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "metro.js",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liukaku/delete-me.git"
+  },
+  "author": "liukaku",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liukaku/delete-me/issues"
+  },
+  "homepage": "https://github.com/Liukaku/delete-me#readme"
+}
